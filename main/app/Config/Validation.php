@@ -7,6 +7,7 @@ use CodeIgniter\Validation\FileRules;
 use CodeIgniter\Validation\FormatRules;
 use CodeIgniter\Validation\Rules;
 use \Myth\Auth\Authentication\Passwords\ValidationRules;
+use \Denis303\ReCaptcha\Validation\ReCaptchaRules;
 
 class Validation
 {
@@ -26,6 +27,7 @@ class Validation
         FileRules::class,
         CreditCardRules::class,
         ValidationRules::class,
+        ReCaptchaRules::class
     ];
 
     /**
@@ -46,6 +48,7 @@ class Validation
     public $signin = [
         'login'    => 'required|valid_email',
         'password' => 'required',
+        'reCaptcha3'   => 'required|reCaptcha3[contactForm,0.9]'
     ];
 
 
@@ -65,6 +68,7 @@ class Validation
         'email'    => 'required|valid_email|is_unique[users.email]',
         'password'     => 'required|strong_password',
         'pass_confirm' => 'required|matches[password]',
+        'reCaptcha3'   => 'required|reCaptcha3[contactForm,0.9]'
     ];
 
 
@@ -92,6 +96,7 @@ class Validation
 
     public $forgot = [
         'email'    => 'required|valid_email',
+        'reCaptcha3'   => 'required|reCaptcha3[contactForm,0.9]'
     ];
 
 
@@ -107,6 +112,7 @@ class Validation
 		'email'		   => 'required|valid_email',
 		'password'	   => 'required|strong_password',
 		'pass_confirm' => 'required|matches[password]',
+        'reCaptcha3'   => 'required|reCaptcha3[contactForm,0.9]'
     ];
 
 

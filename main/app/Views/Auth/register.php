@@ -49,9 +49,11 @@
         </div>
     </div>
 
+    <?= reCaptcha3('reCaptcha3', ['id' => 'recaptcha_v3'], ['action' => 'contactForm']); ?>
+
     <div class="row">
         <div class="input-field col s12">
-            <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12"><?=lang('Auth.register')?></button>
+            <button type="submit" class="btn waves-effect waves-light border-round gradient-45deg-purple-deep-orange col s12"><?= lang('Auth.register') ?></button>
         </div>
     </div>
 
