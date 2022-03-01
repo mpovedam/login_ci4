@@ -1,11 +1,11 @@
-<p>Someone requested a password reset at this email address for <?= site_url() ?>.</p>
+<p>Alguien solicitó un restablecimiento de contraseña en esta dirección de correo electrónico para <?= site_url() ?>.</p>
 
-<p>To reset the password use this code or URL and follow the instructions.</p>
+<p>Para restablecer la contraseña usa este código o URL y sigue las instrucciones.</p>
 
-<p>Your Code: <?= $hash ?></p>
+<p>Tu codigo: <?= $hash ?></p>
 
-<p>Visit the <a href="<?= site_url('reset-password') . '?token=' . $hash ?>">Reset Form</a>.</p>
+<p>Visita el <a href="<?= site_url('reset-password') . '?token=' . $hash ?>">Formulario Restablecer</a>.</p>
 
 <br>
 
-<p>If you did not request a password reset, you can safely ignore this email.</p>
+<p>Si no solicitó un restablecimiento de contraseña, puede ignorar este correo electrónico de manera segura.</p>

@@ -1,0 +1,219 @@
+CRITICAL - 2022-03-01 06:00:45 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:09:39 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:17:25 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:29:38 --> Attempt to read property "allowRegistration" on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:32:01 --> Attempt to read property "allowRegistration" on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:32:03 --> Attempt to read property "views" on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:32:06 --> Attempt to read property "views" on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:32:15 --> Attempt to read property "views" on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-01 06:35:10 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:35:41 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:35:57 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 06:38:42 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Models\UserModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(164): Myth\Auth\Models\UserModel->withGroup('guests')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptRegister()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 07:30:42 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(70): strtolower(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 07:37:53 --> syntax error, unexpected token "="
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Myth\\Auth\\Authe...')
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(52): CodeIgniter\Autoloader\Autoloader->loadClass('Myth\\Auth\\Authe...')
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#7 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-01 07:38:07 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(70): strtolower(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 07:39:03 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(70): strtolower(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 07:39:20 --> strrev(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strrev(): Passi...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(77): strrev(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 07:41:54 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(70): strtolower(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 07:45:50 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(70): strtolower(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('c0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\Passwords\ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('C0l0mb14.2022$', Object(Myth\Auth\Entities\User))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('C0l0mb14.2022$', NULL)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'C0l0mb14.2022$', Array, Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(299): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptReset()
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-01 12:53:12 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-01 12:53:20 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-01 12:53:21 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-01 12:53:22 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-01 12:53:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-01 12:53:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sgp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#2 {main}

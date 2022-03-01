@@ -89,4 +89,42 @@ class Validation
             'required'    => 'Digite nuevamente la contraseña.',
         ],
     ];
+
+    public $forgot = [
+        'email'    => 'required|valid_email',
+    ];
+
+
+    public $forgot_errors = [
+        'email'  => [
+            'required'    => 'El correo electrónico es requerido.',
+            'valid_email' => 'Introduzca una dirección de correo electrónico válida.',
+        ],
+    ];
+
+    public $reset = [
+        'token'		   => 'required',
+		'email'		   => 'required|valid_email',
+		'password'	   => 'required|strong_password',
+		'pass_confirm' => 'required|matches[password]',
+    ];
+
+
+    public $reset_errors = [
+        'token'  => [
+            'required'        => 'El token es requerido.',
+        ],
+        'email'  => [
+            'required'    => 'El correo electrónico es requerido.',
+            'valid_email' => 'Introduzca una dirección de correo electrónico válida.',
+        ],
+        'password'  => [
+            'required'  => 'La nueva contraseña es requerida.',
+        ],
+        'pass_confirm'  => [
+            'required'  => 'Repita su nueva contraseña.',
+        ],
+    ];
+
+    
 }

@@ -15,7 +15,7 @@ class Auth extends AuthConfig
 	 *
 	 * @var string
 	 */
-	public $defaultUserGroup;
+	public $defaultUserGroup = 'guest';
 
 	/**
 	 * --------------------------------------------------------------------

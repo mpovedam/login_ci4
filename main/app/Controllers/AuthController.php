@@ -215,9 +215,18 @@ class AuthController extends ControllerAuth
 			return redirect()->route('login')->with('error', lang('Auth.forgotDisabled'));
 		}
 
+		$forgot = $this->validate('forgot');
+
+		if (! $forgot)
+		{
+			return redirect()->back()->withInput()->with('errors', $this->validator->getErrors());
+		}
+
 		$users = model(UserModel::class);
 
-		$user = $users->where('email', $this->request->getPost('email'))->first();
+		$email = $this->request->getPost('email');
+
+		$user = $users->where('email', $email)->first();
 
 		if (is_null($user))
 		{
