@@ -349,3 +349,267 @@ CRITICAL - 2022-03-01 13:30:05 --> Call to undefined function reCaptcha3()
 #7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-03-01 14:32:39 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:32:57 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:33:06 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:33:34 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:33:57 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:34:41 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:35:29 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:36:29 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:37:20 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:41:04 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\sgp\main\spark(63): CodeIgniter\CLI\Console->run()
+#4 {main}
+CRITICAL - 2022-03-01 14:54:15 --> strpos(): Argument #1 ($haystack) must be of type string, array given
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Router\Router.php(421): strpos(Array, '$')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('admin/lista-de-...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/lista-de-...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 14:54:28 --> strpos(): Argument #1 ($haystack) must be of type string, array given
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Router\Router.php(421): strpos(Array, '$')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('admin/lista-de-...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/lista-de-...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 14:54:47 --> Undefined constant App\Controllers\Admin\UserController::index
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Router\RouteCollection.php(607): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#1 C:\xampp\htdocs\sgp\main\app\Config\Routes.php(66): CodeIgniter\Router\RouteCollection->group('', Array, Object(Closure))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(713): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-01 15:12:43 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:33:50 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:34:08 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:34:23 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:34:39 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:34:55 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:35:52 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:36:43 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-01 15:43:58 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-03-01 15:43:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Session\Handlers\DatabaseHandler.php(94): CodeIgniter\Database\BaseConnection->initialize()
+#1 [internal function]: CodeIgniter\Session\Handlers\DatabaseHandler->open('ci_sessions', 'ci_session')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Session\Session.php(894): session_start()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Session\Session.php(238): CodeIgniter\Session\Session->startSession()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Services.php(577): CodeIgniter\Session\Session->start()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(901): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#10 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(134): session('logged_in')
+#11 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Collectors\Auth.php(64): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#12 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\BaseCollector.php(224): Myth\Auth\Collectors\Auth->display()
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Debug\Toolbar.php(90): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Debug\Toolbar.php(368): CodeIgniter\Debug\Toolbar->run(1646167433.7754, 0.0759, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#15 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#16 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#17 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\Filters\Filters->run('/', 'after')
+#18 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#19 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#20 {main}
+CRITICAL - 2022-03-01 15:46:38 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:46:56 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 15:47:04 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 16:13:29 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 16:14:14 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-01 17:01:07 --> Invalid file: App\Views	emplates\layout.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\templa...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\templa...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 17:01:28 --> Invalid file: App\Views	emplates\layout.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\templa...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\templa...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 17:01:37 --> Invalid file: App\Views\layout.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layou...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\\layou...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 17:01:51 --> Invalid file: App\Views\layout\layout.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\layou...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\\layou...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 17:02:00 --> Invalid file: App\Views	emplates\layout.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\templa...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\templa...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-01 17:32:27 --> Invalid file: App\Views\_sideNav.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\_side...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('App\\Views\\_side...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\app\Views\layout.php(191): view('App\\Views\\_side...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\\layou...', Array, true)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#7 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-01 18:08:31 --> Invalid file: App\Views\_header1.php
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\_head...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('App\\Views\\_head...', Array, true)
+#2 C:\xampp\htdocs\sgp\main\app\Views\layout.php(38): view('App\\Views\\_head...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('App\\Views\\layou...', Array, true)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#7 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

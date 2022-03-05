@@ -1,0 +1,531 @@
+CRITICAL - 2022-03-04 00:00:31 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:02:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:02:32 --> Undefined property: stdClass::$date
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-04 00:02:38 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:03:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:04:37 --> Object of type CodeIgniter\Database\MySQLi\Builder is not callable
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:05:11 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:05:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:05:24 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:06:09 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:06:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:08:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:08:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:09:27 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:13:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:18:30 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:19:04 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:23:29 --> syntax error, unexpected identifier "max"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\Logi...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Myth\\Auth\\Model...')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(28): model('Myth\\Auth\\Model...')
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication('local', Object(App\Models\UserModel), NULL, false)
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', NULL, NULL)
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication()
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#12 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Filters\RoleFilter.php(37): service('authentication')
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#15 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-03-04 00:26:57 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 00:30:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$date
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-04 00:31:04 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 06:10:27 --> Undefined property: App\Entities\User::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 06:10:51 --> Undefined property: App\Entities\User::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 06:16:10 --> Call to undefined function App\Entities\humanize()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('activity')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 06:16:26 --> Call to undefined function App\Entities\humanize()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('activity')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 06:17:09 --> Call to undefined function App\Entities\humanize()
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 06:20:08 --> Call to a member function humanize() on string
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('activity')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 10:34:34 --> Call to a member function post() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:36:00 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:39:02 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 10:40:44 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 10:43:52 --> Call to a member function getGet() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:45:41 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:45:42 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:45:44 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): App\Models\UserModel->get_user_list()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:47:01 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 10:47:16 --> syntax error, unexpected variable "$listing"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-04 10:48:01 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): App\Models\UserModel->get_user_list(NULL, NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:59:22 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 10:59:55 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:00:39 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:00:48 --> Undefined property: stdClass::$roles
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:04:29 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:05:59 --> Attempt to read property "activity" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:06:04 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:06:07 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:08:15 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:11:22 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:11:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 11:15:31 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:23:18 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(28): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 11:23:39 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(28): CodeIgniter\Entity\Entity->__get('userList')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 11:24:21 --> Cannot use object of type App\Entities\User as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 11:26:17 --> Attempt to read property "activity" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:26:22 --> Call to a member function activity() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 11:26:38 --> Undefined array key "activity"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:26:57 --> Attempt to read property "activity" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 11:27:27 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 11:27:36 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Entity\Entity->__get('userList')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 11:29:30 --> CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, null given, called in C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php on line 26
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): CodeIgniter\BaseModel->findAll(NULL, NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 18:06:43 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(30): App\Models\UserModel->filterAll()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 18:08:11 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(31): App\Models\UserModel->filterAll(NULL)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-04 18:11:15 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 18:11:39 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-04 23:53:32 --> Undefined constant "App\Controllers\Admin\userModel"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-04 23:53:40 --> Undefined constant "App\Controllers\Admin\userModel"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

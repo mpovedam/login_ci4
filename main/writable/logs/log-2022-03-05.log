@@ -1,0 +1,1238 @@
+ERROR - 2022-03-05 00:41:22 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:41:22 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): App\Models\UserModel->filteredAll()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 00:41:23 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:41:23 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): App\Models\UserModel->filteredAll()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 00:41:35 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:41:35 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): App\Models\UserModel->filteredAll()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 00:44:29 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:44:29 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): App\Models\UserModel->filteredAll()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 00:44:31 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:44:31 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): App\Models\UserModel->filteredAll()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 00:45:04 --> Call to a member function getUserList() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:45:28 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): App\Models\UserModel->filteredAll()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 00:48:11 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): App\Models\UserModel->filteredAll()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:49:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:49:34 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:49:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:50:06 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:51:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:53:44 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:54:22 --> Call to a member function getUserList() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:54:58 --> Call to a member function getUserList() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:55:08 --> Call to a member function userList() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:55:14 --> Call to a member function user_list() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:56:17 --> Call to a member function activity() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 00:56:22 --> Attempt to read property "activity" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:56:35 --> Attempt to read property "getUserList" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:56:56 --> Array to string conversion
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:57:10 --> Attempt to read property "getUserList" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:58:05 --> Attempt to read property "getUserList" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 00:58:35 --> Attempt to read property "getUserList" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-05 00:59:35 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:59:35 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->filteredAll('w')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 00:59:37 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 00:59:37 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->filteredAll('ww')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:00:00 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:00:00 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:02:17 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:02:17 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 01:02:57 --> Attempt to read property "user_list" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:03:03 --> Attempt to read property "userlist" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:03:13 --> Attempt to read property "userlist" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:04:12 --> Attempt to read property "user1" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:04:56 --> Attempt to read property "user1" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:05:31 --> Attempt to read property "user1" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:05:53 --> Attempt to read property "user_list" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:06:13 --> Attempt to read property "userList" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:08:02 --> Attempt to read property "user_list" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:08:21 --> Attempt to read property "user_list" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:08:44 --> Undefined array key "user_list"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:08:54 --> Undefined array key "userList"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:09:16 --> Attempt to read property "activity" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:09:47 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:10:23 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 1 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:10:37 --> Undefined array key "search"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:11:00 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:11:59 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:12:17 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:12:20 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:12:40 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:13:01 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:13:09 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Us...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Result.php(144): is_subclass_of('App\\Entities\\Us...', 'CodeIgniter\\Ent...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Us...')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '12')
+#9 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('12')
+#10 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#11 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Filters\RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#12 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-03-05 01:13:17 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:13:32 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:13:39 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 56)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(35): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:14:12 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(36): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:14:14 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(36): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:15:25 --> syntax error, unexpected variable "$length", expecting "("
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Entities\\Us...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Entities\\Us...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Result.php(144): is_subclass_of('App\\Entities\\Us...', 'CodeIgniter\\Ent...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(149): CodeIgniter\Database\MySQLi\Result->fetchObject('App\\Entities\\Us...')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(106): CodeIgniter\Database\BaseResult->getCustomResultObject('App\\Entities\\Us...')
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseResult.php(377): CodeIgniter\Database\BaseResult->getResult('App\\Entities\\Us...')
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow('App\\Entities\\Us...')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '12')
+#9 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('12')
+#10 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#11 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Filters\RoleFilter.php(40): Myth\Auth\Authentication\LocalAuthenticator->check()
+#12 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-03-05 01:15:36 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 1 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:15:43 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:18:06 --> Call to undefined method App\Models\UserModel::get_user_list
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Model->__call('get_user_list', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:18:16 --> Call to undefined method App\Models\UserModel::user_list
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Model->__call('user_list', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:18:50 --> Call to undefined method App\Models\UserModel::user_list
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Model->__call('user_list', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:18:51 --> Call to undefined method App\Models\UserModel::user_list
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Model->__call('user_list', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:19:01 --> Call to undefined method App\Models\UserModel::userList
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): CodeIgniter\Model->__call('userList', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:19:40 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 2 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:19:59 --> Too few arguments to function App\Entities\User::getUserList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 1 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Entity\Entity->__get('user_list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:20:10 --> Undefined variable $length
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getUserList()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Entity\Entity->__get('user_list')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:26:17 --> Undefined variable $jumlah_semua
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:26:43 --> Too few arguments to function App\Models\UserModel::filteredAll(), 0 passed in C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php on line 48 and exactly 1 expected
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(48): App\Models\UserModel->filteredAll()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:27:48 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 01:27:57 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 01:28:59 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 01:29:09 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-05 01:31:37 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:31:37 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(50): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:33:16 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:33:16 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(52): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:34:30 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:34:30 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(52): App\Models\UserModel->filteredAll('w')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:34:33 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:34:33 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(52): App\Models\UserModel->filteredAll('ww')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:35:14 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:35:14 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(52): App\Models\UserModel->filteredAll('w')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:36:31 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:36:31 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(52): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 01:40:27 --> CodeIgniter\BaseModel::findAll(): Argument #2 ($offset) must be of type int, string given, called in C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php on line 49
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(49): CodeIgniter\BaseModel->findAll(10, '', '0')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-05 01:41:31 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:41:31 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:41:44 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:41:44 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('ss')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:41:47 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:41:47 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('sss')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:41:48 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:41:48 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('ssss')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:42:19 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:42:19 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:42:27 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:42:27 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('1')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:46:09 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:46:09 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:47:22 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:47:22 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 01:47:55 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:47:55 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 01:50:45 --> App\Models\LoginModel::getLastActivity(): Argument #1 ($userId) must be of type int, null given, called in C:\xampp\htdocs\sgp\main\app\Entities\User.php on line 29
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(29): App\Models\LoginModel->getLastActivity(NULL)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:50:55 --> App\Models\LoginModel::getLastActivity(): Argument #1 ($userId) must be of type int, null given, called in C:\xampp\htdocs\sgp\main\app\Entities\User.php on line 29
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(29): App\Models\LoginModel->getLastActivity(NULL)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-05 01:52:24 --> Too few arguments to function App\Entities\User::getList(), 0 passed in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php on line 490 and exactly 3 expected
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getList()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): CodeIgniter\Entity\Entity->__get('list')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 01:52:40 --> Too few arguments to function App\Entities\User::getList(), 0 passed in C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php on line 20 and exactly 3 expected
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): App\Entities\User->getList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:53:29 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-05 01:55:55 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 01:55:55 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(62): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 01:57:42 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 01:57:48 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-05 02:00:12 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:00:12 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(63): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:02:23 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:02:23 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:03:45 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:03:45 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:03:53 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:03:53 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('ss')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:04:26 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:04:26 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('w')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:04:49 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:04:49 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:06:25 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:06:25 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-05 02:07:24 --> Unknown column 'roles' in 'where clause'
+CRITICAL - 2022-03-05 02:07:24 --> Unknown column 'roles' in 'where clause'
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(id...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(id...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(id...')
+#3 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(id...')
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(64): App\Models\UserModel->filteredAll('s')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-05 02:10:40 --> syntax error, unexpected variable "$query_search"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\User...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Myth\\Auth\\Model...')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(27): model('Myth\\Auth\\Model...')
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication('local', NULL, NULL, false)
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', NULL, NULL)
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication()
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#12 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Filters\RoleFilter.php(37): service('authentication')
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#15 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-03-05 02:19:07 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->getList('10', '', '0')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:20:02 --> Too few arguments to function App\Models\UserModel::getList(), 0 passed in C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php on line 60 and exactly 3 expected
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->getList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:21:31 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->getList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:22:02 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:22:30 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:23:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:24:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:24:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:24:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:25:05 --> Call to a member function getPost() on null
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): App\Models\UserModel->get_List()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:26:34 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:26:44 --> Undefined property: stdClass::$setActive
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:27:09 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:27:20 --> Undefined property: stdClass::$roles
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:27:53 --> Undefined property: stdClass::$activity
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:46:25 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-05 02:46:45 --> Undefined property: mysqli::$id
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:47:41 --> Undefined array key "start"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:48:10 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:48:13 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:48:54 --> Call to undefined method App\Models\UserModel::get_List
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): CodeIgniter\Model->__call('get_List', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:49:24 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:49:40 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:49:52 --> Undefined property: App\Controllers\Admin\UserController::$order
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:51:16 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:51:51 --> Undefined array key "length"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:52:21 --> Undefined array key "start"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:52:59 --> Undefined array key "start"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:53:07 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #1 ($value) must be of type ?int, array given, called in C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php on line 728
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->limit(Array, Array)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(47): CodeIgniter\Model->__call('limit', Array)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 02:54:20 --> Call to undefined method App\Models\UserModel::get_List
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(30): CodeIgniter\Model->__call('get_List', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:55:38 --> Call to undefined method App\Models\UserModel::get_List
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): CodeIgniter\Model->__call('get_List', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 02:55:54 --> Call to undefined method App\Models\UserModel::get_List
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(60): CodeIgniter\Model->__call('get_List', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 03:05:57 --> Undefined array key "start"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 03:06:16 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 03:07:04 --> Undefined array key "order"
+#0 C:\xampp\htdocs\sgp\main\app\Models\UserModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(26): App\Models\UserModel->get_List()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-05 03:07:47 --> Call to undefined method App\Models\UserModel::filteredAll
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(53): CodeIgniter\Model->__call('filteredAll', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-05 03:08:24 --> Undefined array key "draw"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

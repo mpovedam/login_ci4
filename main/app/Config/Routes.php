@@ -2,6 +2,7 @@
 
 namespace Config;
 
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -57,6 +58,14 @@ $routes->group('', function ($routes) {
     $routes->get('reset-password', 'AuthController::resetPassword', ['as' => 'reset-password']);
     $routes->post('reset-password', 'AuthController::attemptReset');
 });
+
+$routes->group('admin', ['namespace' => 'App\Controllers\Admin'], static function ($routes) {
+    $routes->get('lista-de-usuarios', 'UserController::index', ['filter' => 'role:admin'], ['as' => 'user_list']);
+    $routes->post('get_lista-de-usuarios', 'UserController::getUsersList', ['filter' => 'role:admin']);
+});
+
+
+
 
 
 /*

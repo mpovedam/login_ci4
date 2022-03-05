@@ -1,0 +1,781 @@
+CRITICAL - 2022-03-03 04:37:12 --> View themes, no current section.
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(586): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(11): view('User/user_list')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:05:01 --> Array to string conversion
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:05:52 --> Array to string conversion
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:06:24 --> Undefined array key 0
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:09:59 --> Undefined array key 0
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:12:39 --> syntax error, unexpected token "endforeach"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 06:16:32 --> Undefined array key 0
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:20:11 --> syntax error, unexpected token "endforeach"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 06:22:23 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 06:22:39 --> Cannot use object of type App\Entities\User as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(23): view('User/user_list', Array)
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 06:29:29 --> Users must be created before getting roles.
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): Myth\Auth\Entities\User->getRoles()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:29:42 --> Users must be created before getting roles.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): Myth\Auth\Entities\User->getRoles()
+#1 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): CodeIgniter\Entity\Entity->__get('roles')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-03 06:32:26 --> Call to undefined method App\Models\UserModel::roles
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(20): CodeIgniter\Model->__call('roles', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:39:40 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:40:41 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:40:47 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:41:07 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:41:20 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:41:29 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:41:40 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:41:54 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:42:00 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:42:06 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:43:05 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:43:13 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:45:07 --> Undefined property: App\Controllers\Admin\UserController::$userModel
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:45:16 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:46:38 --> Cannot use object of type App\Entities\User as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 06:46:57 --> Attempt to read property "users" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:47:07 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:47:59 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:48:09 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:48:51 --> Cannot use object of type App\Entities\User as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 06:49:00 --> Cannot use object of type App\Entities\User as array
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 06:50:06 --> Undefined variable $data
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:50:46 --> Undefined variable $data
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:50:58 --> Undefined variable $users
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 06:51:56 --> Undefined variable $data
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 06:57:49 --> Cannot use [] for reading
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 06:58:45 --> Undefined variable $users
+#0 C:\xampp\htdocs\sgp\main\app\Views\User\user_list.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('User/user_list', Array, true)
+#4 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(37): view('User/user_list', Array)
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-03 07:11:45 --> syntax error, unexpected token "for", expecting "]"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 07:12:03 --> Undefined variable $data
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:00:18 --> Undefined array key "users"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:00:45 --> Undefined array key "users"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:01:38 --> Undefined array key "users"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:07:23 --> Undefined array key "users"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:45:21 --> Undefined array key "users"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->getUsersList()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:52:44 --> Attempt to read property "id" on array
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:53:04 --> Undefined array key "id"
+#0 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-03 08:53:29 --> syntax error, unexpected identifier "dd", expecting "function" or "const"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 22:53:56 --> max(): Argument #1 ($value) must be of type array, string given
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(51): max('id')
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-03 22:58:19 --> Table 'sgp_prd.logins' doesn't exist
+CRITICAL - 2022-03-03 22:58:19 --> Table 'sgp_prd.logins' doesn't exist
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `auth_lo...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `auth_lo...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `auth_lo...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `auth_lo...', Array, false)
+#4 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#7 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-03 22:59:18 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 22:59:44 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:00:08 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:00:50 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:01:23 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:01:26 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:01:37 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:01:52 --> Allowed fields must be specified for model: App\Models\LoginModel
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(219): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(88): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('mauriciomacias2...', '127.0.0.1', 12, true)
+#5 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(60): Myth\Auth\Authentication\AuthenticationBase->login(Object(App\Entities\User), false)
+#6 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(81): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-03 23:02:05 --> Allowed fields must be specified for model: App\Models\LoginModel
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(219): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(88): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('mauriciomacias2...', '127.0.0.1', 12, true)
+#5 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(60): Myth\Auth\Authentication\AuthenticationBase->login(Object(App\Entities\User), false)
+#6 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(81): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-03 23:02:52 --> Allowed fields must be specified for model: App\Models\LoginModel
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(219): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\AuthenticationBase.php(88): Myth\Auth\Authentication\AuthenticationBase->recordLoginAttempt('mauriciomacias2...', '127.0.0.1', 12, true)
+#5 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(60): Myth\Auth\Authentication\AuthenticationBase->login(Object(App\Entities\User), false)
+#6 C:\xampp\htdocs\sgp\main\app\Controllers\AuthController.php(81): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\AuthController->attemptLogin()
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-03 23:04:04 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:04:18 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:04:35 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:04:43 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:04:53 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:05:22 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:05:23 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:05:55 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:06:01 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:06:09 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:06:15 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:10:52 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:11:18 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:11:38 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:11:48 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:11:59 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:16:51 --> Call to undefined method Myth\Auth\Models\LoginModel::getLastActivity
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): CodeIgniter\Model->__call('getLastActivity', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 23:17:21 --> Call to undefined method App\Models\LoginModel::getLastActivity
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): CodeIgniter\Model->__call('getLastActivity', Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 23:18:17 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:18:49 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:22:56 --> No tenés los permisos necesarios para poder acceder a esta página.
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-03 23:30:51 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('App\\Models\\Logi...')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Myth\\Auth\\Model...')
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#6 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(28): model('Myth\\Auth\\Model...')
+#7 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication('local', Object(App\Models\UserModel), NULL, false)
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#9 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Config\Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', NULL, NULL)
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Config\BaseService.php(248): Myth\Auth\Config\Services::authentication()
+#11 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Common.php(929): CodeIgniter\Config\BaseService::__callStatic('authentication', Array)
+#12 C:\xampp\htdocs\sgp\main\vendor\myth\auth\src\Filters\RoleFilter.php(37): service('authentication')
+#13 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Filters\Filters.php(173): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#14 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/lista-de-...', 'before')
+#15 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+ERROR - 2022-03-03 23:42:46 --> Table 'sgp_prd.table_name' doesn't exist
+CRITICAL - 2022-03-03 23:42:46 --> Table 'sgp_prd.table_name' doesn't exist
+#0 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#7 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#8 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#9 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#10 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-03 23:42:58 --> Undefined property: stdClass::$title
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:44:39 --> Undefined variable $found
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:46:10 --> Attempt to read property "date" on null
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:47:07 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 23:51:38 --> Attempt to read property "date" on null
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:52:49 --> max(): Argument #1 ($value) must be of type array, string given
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(36): max('id')
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:54:45 --> Attempt to read property "max_length" on array
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:55:12 --> Undefined variable $fields
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:55:21 --> Attempt to read property "max_length" on array
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-03 23:58:12 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 23:58:33 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#1 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#2 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#3 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-03 23:58:54 --> Undefined property: stdClass::$date
+#0 C:\xampp\htdocs\sgp\main\app\Models\LoginModel.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\sgp\main\app\Entities\User.php(27): App\Models\LoginModel->getLastActivity(12)
+#2 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\Entity\Entity.php(490): App\Entities\User->getActivity()
+#3 C:\xampp\htdocs\sgp\main\app\Controllers\Admin\UserController.php(29): CodeIgniter\Entity\Entity->__get('activity')
+#4 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Admin\UserController->index()
+#5 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\UserController))
+#6 C:\xampp\htdocs\sgp\main\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sgp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

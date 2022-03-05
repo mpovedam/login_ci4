@@ -15,7 +15,7 @@
 
     <div class="row margin">
         <div class="input-field col s12">
-            <i class="material-icons prefix pt-2">mail_outline</i>
+            <i class="material-icons prefix pt-2">vpn_key</i>
             <input id="token" type="text" class="<?php if (session('errors.token')) : ?>validate invalid<?php endif ?>" name="token" value="<?= old('token', $token ?? '') ?>">
             <label for="token"><?= lang('Auth.token') ?></label>
             <span class="helper-text" data-error="<?= session('errors.token') ?>" data-success=""><?= session('errors.token') ?></span>
@@ -49,6 +49,8 @@
             <span class="helper-text" data-error="<?= session('errors.pass_confirm') ?>" data-success=""><?= session('errors.pass_confirm') ?></span>
         </div>
     </div>
+
+    <?= reCaptcha3('reCaptcha3', ['id' => 'recaptcha_v3'], ['action' => 'contactForm']); ?>
 
     <div class="row">
         <div class="input-field col s12">
